@@ -1,0 +1,23 @@
+{
+  "name": "nefit-easy-commands",
+  "version": "0.0.0",
+  "description": "Nefit Easy™ commands library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertklep/nefit-easy-commands.git"
+  },
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robertklep/nefit-easy-commands/issues"
+  },
+  "homepage": "https://github.com/robertklep/nefit-easy-commands#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "nefit-easy-core": "robertklep/nefit-easy-core"
+  }
+}
