@@ -12,7 +12,15 @@ $ npm i nefit-easy-commands
 
 #### Constructor
 
-Documented [here](https://github.com/robertklep/nefit-easy-core#constructor).
+```
+const NefitEasyClient = require('nefit-easy-commands');
+const client          = NefitEasyClient({
+  serialNumber   : NEFIT_SERIAL_NUMBER,
+  accessKey      : NEFIT_ACCESS_KEY,
+  password       : NEFIT_PASSWORD,
+[ requestTimeout : Number ]
+});
+```
 
 #### Current status
 
