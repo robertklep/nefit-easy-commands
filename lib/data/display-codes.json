@@ -1,0 +1,1032 @@
+[
+  {
+    "status": "-A",
+    "code": 208,
+    "description": "Het cv-toestel bevindt zich in schoorsteenvegerbedrijf of in servicebedrijf."
+  },
+  {
+    "status": "-H",
+    "code": 200,
+    "description": "Het cv-toestel bevindt zich in cv-bedrijf."
+  },
+  {
+    "status": "=H",
+    "code": 201,
+    "description": "Het cv-toestel bevindt zich in warmwaterbedrijf."
+  },
+  {
+    "status": "0A",
+    "code": 202,
+    "description": "Het cv-toestel wacht. Er is vaker dan 1x per 10 minuten een warmtevraag van een aan/uit- of een ModuLine-regeling geweest."
+  },
+  {
+    "status": "0A",
+    "code": 305,
+    "description": "Het cv-toestel wacht na einde warmwaterbedrijf."
+  },
+  {
+    "status": "0A",
+    "code": 353,
+    "description": "Het cv-toestel wacht. Het cv-toestel is binnen 24 uur nooit langer dan 20 minuten uit geweest."
+  },
+  {
+    "status": "0C",
+    "code": 283,
+    "description": "Het cv-toestel  bereidt zich voor op een branderstart. De ventilator en de pomp worden aangestuurd."
+  },
+  {
+    "status": "0E",
+    "code": 265,
+    "description": "Het cv-toestel wacht. Het cv-toestel schakelt geregeld in op laaglast om aan de warmtevraag te voldoen."
+  },
+  {
+    "status": "0H",
+    "code": 203,
+    "description": "Het cv-toestel staat stand-by."
+  },
+  {
+    "status": "0L",
+    "code": 284,
+    "description": "Het gasregelblok wordt aangestuurd."
+  },
+  {
+    "status": "0P",
+    "code": 205,
+    "description": "Het cv-toestel wacht op het schakelen van de luchtdrukschakelaar."
+  },
+  {
+    "status": "0U",
+    "code": 270,
+    "description": "Het cv-toestel wordt opgestart."
+  },
+  {
+    "status": "0Y",
+    "code": 204,
+    "description": "Het cv-toestel wacht. De gemeten aanvoertemperatuur is hoger dan de berekende of ingestelde cv-watertemperatuur."
+  },
+  {
+    "status": "0Y",
+    "code": 276,
+    "description": "De aanvoertemperatuursensor heeft een temperatuur gemeten die hoger is dan 95 ºC."
+  },
+  {
+    "status": "0Y",
+    "code": 277,
+    "description": "De safetytemperatuursensor heeft een temperatuur gemeten die hoger is dan 95 ºC."
+  },
+  {
+    "status": "0Y",
+    "code": 285,
+    "description": "De retourtemperatuursensor heeft een temperatuur gemeten die hoger is dan 95 ºC."
+  },
+  {
+    "status": "0Y",
+    "code": 359,
+    "description": "De warmwatertemperatuursensor heeft een te hoge temperatuur gemeten."
+  },
+  {
+    "status": "1A",
+    "code": 316,
+    "description": "De rookgastemperatuursensor heeft een te hoge temperatuur gemeten."
+  },
+  {
+    "status": "1C",
+    "code": 210,
+    "description": "De rookgasthermostaat heeft een te hoge temperatuur gemeten en staat geopend."
+  },
+  {
+    "status": "1P",
+    "code": 346,
+    "description": "De temperatuur van de rookgastemperatuursensor stijgt te snel."
+  },
+  {
+    "status": "1U",
+    "code": 317,
+    "description": "De contacten van de rookgastemperatuursensor zijn kortgesloten."
+  },
+  {
+    "status": "1Y",
+    "code": 318,
+    "description": "De contacten van de rookgastemperatuursensor zijn onderbroken."
+  },
+  {
+    "status": "2A",
+    "code": 343,
+    "description": "Tijdens cv-bedrijf: de rookgastemperatuursensor meet een temperatuurstijging, maar de aanvoertemperatuursensor niet."
+  },
+  {
+    "status": "2A",
+    "code": 344,
+    "description": "Tijdens warmwaterbedrijf: de rookgastemperatuursensor meet een temperatuurstijging, maar de aanvoertemperatuursensor niet."
+  },
+  {
+    "status": "2C",
+    "code": 348,
+    "description": "Tijdens warmwaterbedrijf: de aanvoertemperatuur is hoger dan 85 ºC."
+  },
+  {
+    "status": "2E",
+    "code": 207,
+    "description": "De cv-waterdruk is te laag."
+  },
+  {
+    "status": "2E",
+    "code": 357,
+    "description": "Het ontluchtingsprogramma is actief."
+  },
+  {
+    "status": "2F",
+    "code": 260,
+    "description": "De aanvoertemperatuursensor meet geen temperatuurstijging na een branderstart."
+  },
+  {
+    "status": "2F",
+    "code": 271,
+    "description": "Het gemeten temperatuursverschil  tussen de aanvoer- en safetytemperatuursensor is te groot."
+  },
+  {
+    "status": "2F",
+    "code": 338,
+    "description": "Branderstart te vaak afgebroken."
+  },
+  {
+    "status": "2F",
+    "code": 345,
+    "description": "De aanvoertemperatuursensor meet geen temperatuurstijging na een branderstart."
+  },
+  {
+    "status": "2H",
+    "code": 358,
+    "description": "De 3-wegklep wordt gedeblokkeerd."
+  },
+  {
+    "status": "2L",
+    "code": 266,
+    "description": "De pomptest is mislukt."
+  },
+  {
+    "status": "2L",
+    "code": 329,
+    "description": "De druksensor meet geen waterstroming."
+  },
+  {
+    "status": "2P",
+    "code": 212,
+    "description": "De gemeten temperatuur door de aanvoertemperatuursensor of de safetytemperatuursensor, stijgt te snel."
+  },
+  {
+    "status": "2P",
+    "code": 341,
+    "description": "De gemeten temperatuur door de aanvoertemperatuursensor of de retourtemperatuursensor, stijgt te snel."
+  },
+  {
+    "status": "2P",
+    "code": 342,
+    "description": "De gemeten temperatuur door de aanvoertemperatuursensor stijgt te snel."
+  },
+  {
+    "status": "2U",
+    "code": 213,
+    "description": "De gemeten temperatuur tussen de aanvoer- en de retourtemperatuursensor is te groot."
+  },
+  {
+    "status": "2U",
+    "code": 349,
+    "description": "Het op laaglast gemeten temperatuurverschil tussen de aanvoertemperatuursensor en de retourtemperatuursensor is te groot."
+  },
+  {
+    "status": "2Y",
+    "code": 281,
+    "description": "De pomp zit vast of draait in lucht."
+  },
+  {
+    "status": "2Y",
+    "code": 282,
+    "description": "Het stuursignaal van de pomp ontbreekt."
+  },
+  {
+    "status": "3A",
+    "code": 264,
+    "description": "Het stuursignaal of de spanning van de ventilator is tijdens bedrijf weggevallen."
+  },
+  {
+    "status": "3C",
+    "code": 217,
+    "description": "Het ventilatortoerental is onregelmatig tijdens het opstarten."
+  },
+  {
+    "status": "3F",
+    "code": 273,
+    "description": "Het cv-toestel is maximaal 2 minuten uitgeschakeld geweest, omdat het cv-toestel gedurende 24 uur continu in bedrijf is geweest. Dit is een veiligheidscontrole."
+  },
+  {
+    "status": "3L",
+    "code": 214,
+    "description": "Ventilator draait niet tijdens de opstartfase (0C)."
+  },
+  {
+    "status": "3P",
+    "code": 216,
+    "description": "Het ventilatortoerental is te laag."
+  },
+  {
+    "status": "3Y",
+    "code": 215,
+    "description": "Het ventilatortoerental is te hoog."
+  },
+  {
+    "status": "4A",
+    "code": 218,
+    "description": "De aanvoertemperatuursensor heeft een temperatuur gemeten die hoger is dan 105 ºC."
+  },
+  {
+    "status": "4A",
+    "code": 332,
+    "description": "De aanvoertemperatuursensor heeft een temperatuur gemeten die hoger is dan 110 ºC."
+  },
+  {
+    "status": "4C",
+    "code": 224,
+    "description": "Een toestelthermostaat (bv. maximaal- of branderthermostaat) heeft een te hoge temperatuur gemeten en staat geopend."
+  },
+  {
+    "status": "4E",
+    "code": 225,
+    "description": "Er is een overwacht groot temperatuurverschil gemeten in de dubbelsensor."
+  },
+  {
+    "status": "4E",
+    "code": 278,
+    "description": "De sensortest is mislukt."
+  },
+  {
+    "status": "4E",
+    "code": 347,
+    "description": "De retourtemperatuursensor heeft een hogere cv-watertemperatuur gemeten dan de aanvoertemperatuursensor. Na 10 minuten volgt een herstart."
+  },
+  {
+    "status": "4E",
+    "code": 375,
+    "description": "De contacten de externe sensor (bv. solar-sensor) zijn kortgesloten."
+  },
+  {
+    "status": "4E",
+    "code": 376,
+    "description": "De contacten de externe sensor (bv. solar-sensor) zijn onderbroken."
+  },
+  {
+    "status": "4F",
+    "code": 219,
+    "description": "De safetytemperatuursensor heeft een temperatuur gemeten die hoger is dan 105 ºC."
+  },
+  {
+    "status": "4L",
+    "code": 220,
+    "description": "De contacten van de safetytemperatuursensor zijn kortgesloten of de safetytemperatuursensor heeft een temperatuur gemeten die hoger is dan 130 ºC."
+  },
+  {
+    "status": "4P",
+    "code": 221,
+    "description": "De contacten van de safetytemperatuursensor zijn onderbroken."
+  },
+  {
+    "status": "4U",
+    "code": 222,
+    "description": "De contacten de aanvoertemperatuursensor zijn kortgesloten."
+  },
+  {
+    "status": "4U",
+    "code": 350,
+    "description": "De contacten de aanvoertemperatuursensor zijn kortgesloten."
+  },
+  {
+    "status": "4Y",
+    "code": 223,
+    "description": "De contacten van de aanvoertemperatuursensor zijn onderbroken."
+  },
+  {
+    "status": "4Y",
+    "code": 351,
+    "description": "De contacten van de aanvoertemperatuursensor zijn onderbroken."
+  },
+  {
+    "status": "5A",
+    "code": -6,
+    "description": "Door Nefit Service Tool/Handterminal gegenereerde storingscode."
+  },
+  {
+    "status": "5C",
+    "code": 226,
+    "description": "Service Tool is aangesloten geweest."
+  },
+  {
+    "status": "5F",
+    "code": -1,
+    "description": "Service Tool: servicetest duurt te lang."
+  },
+  {
+    "status": "5H",
+    "code": 268,
+    "description": "Componententest."
+  },
+  {
+    "status": "5Y",
+    "code": -2,
+    "description": "Service Tool: servicetest duurt te lang of  een het cv-toestelparameter is gewijzigd."
+  },
+  {
+    "status": "6A",
+    "code": 227,
+    "description": "Er is onvoldoende ionisatiestroom gemeten na het ontsteken van de brander."
+  },
+  {
+    "status": "6C",
+    "code": 228,
+    "description": "Er is een ionisatiestroom gemeten voordat de brander is gestart."
+  },
+  {
+    "status": "6C",
+    "code": 306,
+    "description": "Er is een ionisatiestroom gemeten, nadat de brander gedoofd is."
+  },
+  {
+    "status": "6H",
+    "code": -7,
+    "description": "Ionisatie valt weg kort na het ontsteken van de brander."
+  },
+  {
+    "status": "6L",
+    "code": 229,
+    "description": "Er is onvoldoende ionisatiestroom gemeten tijdens het branden."
+  },
+  {
+    "status": "6P",
+    "code": 269,
+    "description": "De ontstekingsunit is te lang aangestuurd."
+  },
+  {
+    "status": "7A",
+    "code": -8,
+    "description": "De netspanning of ModuLine thermostaat wordt extern beïnvloed."
+  },
+  {
+    "status": "7C",
+    "code": 231,
+    "description": "De netspanning is tijdens een vergrendelende storing onderbroken geweest."
+  },
+  {
+    "status": "7F",
+    "code": -9,
+    "description": "Zekering F3 is defect"
+  },
+  {
+    "status": "7H",
+    "code": 328,
+    "description": "Er is een kortstondige onderbreking van de netspanning geweest."
+  },
+  {
+    "status": "7L",
+    "code": 261,
+    "description": "De branderautomaat is defect."
+  },
+  {
+    "status": "7L",
+    "code": 280,
+    "description": "De branderautomaat is defect."
+  },
+  {
+    "status": "8C",
+    "code": 373,
+    "description": "De branderthermostaat heeft, vaker dan is toegestaan, een te hoge temperatuur gemeten."
+  },
+  {
+    "status": "8C",
+    "code": 374,
+    "description": "Er is,  vaker dan toegestaan, onvoldoende ionisatiestroom gemeten tijdens het branden."
+  },
+  {
+    "status": "8U",
+    "code": 364,
+    "description": "Het gasregelblok vertoont symptomen van veroudering."
+  },
+  {
+    "status": "8U",
+    "code": 365,
+    "description": "Het gasregelblok vertoont symptomen van veroudering."
+  },
+  {
+    "status": "8Y",
+    "code": 232,
+    "description": "Het externe schakelcontact is geopend."
+  },
+  {
+    "status": "9A",
+    "code": 235,
+    "description": "De KIM is te nieuw voor de branderautomaat."
+  },
+  {
+    "status": "9A",
+    "code": 360,
+    "description": "De geplaatste KIM correspondeert niet met de branderautomaat."
+  },
+  {
+    "status": "9A",
+    "code": 361,
+    "description": "De geplaatste branderautomaat correspondeert niet met de KIM."
+  },
+  {
+    "status": "9C",
+    "code": 322,
+    "description": "De branderautomaat ziet geen KIM."
+  },
+  {
+    "status": "9C",
+    "code": -10,
+    "description": "De branderautomaat ziet geen KIM."
+  },
+  {
+    "status": "9F",
+    "code": -11,
+    "description": "De branderautomaat is defect."
+  },
+  {
+    "status": "9H",
+    "code": 237,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "9H",
+    "code": 267,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "9H",
+    "code": 272,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "9L",
+    "code": 234,
+    "description": "De contacten van het gasregelblok zijn onderbroken."
+  },
+  {
+    "status": "9L",
+    "code": 238,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "9P",
+    "code": 239,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "9U",
+    "code": 233,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "C0",
+    "code": 288,
+    "description": "De waterdruk is te hoog of de contacten van de druksensor zijn onderbroken."
+  },
+  {
+    "status": "C0",
+    "code": 289,
+    "description": "De contacten van de druksensor zijn kortgesloten."
+  },
+  {
+    "status": "CA",
+    "code": 286,
+    "description": "De retourtemperatuursensor heeft een cv-retourtemperatuur gemeten die hoger is dan 105 ºC."
+  },
+  {
+    "status": "CU",
+    "code": 240,
+    "description": "De contacten van de retourtemperatuursensor zijn kortgesloten."
+  },
+  {
+    "status": "CY",
+    "code": 241,
+    "description": "De contacten van de retourtemperatuursensor zijn onderbroken."
+  },
+  {
+    "status": "E1",
+    "code": 242,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 243,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 244,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 245,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 247,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 248,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 249,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 255,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "E1",
+    "code": 257,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EA",
+    "code": 246,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EA",
+    "code": 252,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EA",
+    "code": 253,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EC",
+    "code": 251,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EC",
+    "code": 256,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EF",
+    "code": 254,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EH",
+    "code": 250,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EH",
+    "code": 258,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EH",
+    "code": 262,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EL",
+    "code": 259,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EL",
+    "code": 279,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EL",
+    "code": 290,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EP",
+    "code": 287,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "EY",
+    "code": 263,
+    "description": "De branderautomaat of de KIM is defect."
+  },
+  {
+    "status": "A01",
+    "code": 800,
+    "description": "De buitentemperatuursensor is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A01",
+    "code": 808,
+    "description": "De warmwatertemperatuursensor van de eerste ww-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A01",
+    "code": 809,
+    "description": "De warmwatertemperatuursensor van de tweede ww-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A01",
+    "code": 810,
+    "description": "De warmwatervoorziening blijft koud of de warmwatertemperatuur is tijdens opwarming gedurende 2 uur niet gestegen."
+  },
+  {
+    "status": "A01",
+    "code": 811,
+    "description": "De thermische desinfectie van de warmwaterboiler is niet gelukt of de temperatuur voor het desinfecteren van de warmwaterboiler is niet gehaald binnen 3 uur."
+  },
+  {
+    "status": "A01",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk over de communicatiebus."
+  },
+  {
+    "status": "A01",
+    "code": 828,
+    "description": "Waterdruksensor geeft storing."
+  },
+  {
+    "status": "A02",
+    "code": 816,
+    "description": "Geen communicatie met het bedieningspaneel van de cv-ketel."
+  },
+  {
+    "status": "A11",
+    "code": 801,
+    "description": "Er is een interne fout opgetreden."
+  },
+  {
+    "status": "A11",
+    "code": 802,
+    "description": "De tijd is niet ingesteld."
+  },
+  {
+    "status": "A11",
+    "code": 803,
+    "description": "De datum is niet ingesteld."
+  },
+  {
+    "status": "A11",
+    "code": 804,
+    "description": "Er is een interne fout opgetreden."
+  },
+  {
+    "status": "A11",
+    "code": 806,
+    "description": "De ruimtetemperatuursensor van de ModuLine-regeling is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A11",
+    "code": 821,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A11",
+    "code": 822,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A11",
+    "code": 823,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A11",
+    "code": 824,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A11",
+    "code": 825,
+    "description": "Er zijn 2 ModuLine-regelingen toegekend aan 1 cv-groep."
+  },
+  {
+    "status": "A11",
+    "code": 826,
+    "description": "De ruimtetemperatuursensor van de ModuLine 400 regeling is defect of geeft onrealistische waarde."
+  },
+  {
+    "status": "A11",
+    "code": 827,
+    "description": "De ruimtetemperatuursensor van de ModuLine 400 regeling is defect of geeft onrealistische waarde."
+  },
+  {
+    "status": "A11",
+    "code": 828,
+    "description": "De waterdruksensor is defect of geeft onrealistische waarde."
+  },
+  {
+    "status": "A12",
+    "code": 815,
+    "description": "De aanvoertemperatuursensor van de open verdeler is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A12",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de verdelermodule (WM10)."
+  },
+  {
+    "status": "A18",
+    "code": 825,
+    "description": "Er zijn 2 ModuLine-regelingen toegekend aan 1 cv-groep."
+  },
+  {
+    "status": "A21",
+    "code": 806,
+    "description": "De ruimtetemperatuursensor van de ModuLine-regeling van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A21",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A21",
+    "code": 829,
+    "description": "Er is geen cv-groep toegekend aan de ModuLine-regeling, of er is een cv-groep toegekend aan een niet aanwezige ModuLine-regeling."
+  },
+  {
+    "status": "A21",
+    "code": 830,
+    "description": "Er is een te lage batterijspanning voor de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A21",
+    "code": 839,
+    "description": "Er is geen radiocommunicatie met de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A21",
+    "code": 842,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A21",
+    "code": 843,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A22",
+    "code": 806,
+    "description": "De ruimtetemperatuursensor van de ModuLine-regeling van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A22",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A22",
+    "code": 829,
+    "description": "Er is geen cv-groep toegekend aan de ModuLine-regeling, of er is een cv-groep toegekend aan een niet aanwezige ModuLine-regeling."
+  },
+  {
+    "status": "A22",
+    "code": 830,
+    "description": "Er is een te lage batterijspanning voor de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A22",
+    "code": 839,
+    "description": "Er is geen radiocommunicatie met de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A22",
+    "code": 842,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A22",
+    "code": 843,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A23",
+    "code": 806,
+    "description": "De ruimtetemperatuursensor van de ModuLine-regeling van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A23",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A23",
+    "code": 829,
+    "description": "Er is geen cv-groep toegekend aan de ModuLine-regeling, of er is een cv-groep toegekend aan een niet aanwezige ModuLine-regeling."
+  },
+  {
+    "status": "A23",
+    "code": 830,
+    "description": "Er is een te lage batterijspanning voor de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A23",
+    "code": 839,
+    "description": "Er is geen radiocommunicatie met de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A23",
+    "code": 842,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A23",
+    "code": 843,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A24",
+    "code": 806,
+    "description": "De ruimtetemperatuursensor van de ModuLine-regeling van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A24",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A24",
+    "code": 829,
+    "description": "Er is geen cv-groep toegekend aan de ModuLine-regeling, of er is een cv-groep toegekend aan een niet aanwezige ModuLine-regeling."
+  },
+  {
+    "status": "A24",
+    "code": 830,
+    "description": "Er is een te lage batterijspanning voor de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A24",
+    "code": 839,
+    "description": "Er is geen radiocommunicatie met de draadloze ModuLine-regeling van de betreffende cv-groep."
+  },
+  {
+    "status": "A24",
+    "code": 842,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A24",
+    "code": 843,
+    "description": "Er is geen ModuLine-regeling toegepast voor de betreffende cv-groep."
+  },
+  {
+    "status": "A32",
+    "code": 807,
+    "description": "De aanvoertemperatuursensor van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A32",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de mengklepmodule (MM10) van de betreffende cv-groep."
+  },
+  {
+    "status": "A33",
+    "code": 807,
+    "description": "De aanvoertemperatuursensor van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A33",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de mengklepmodule (MM10) van de betreffende cv-groep."
+  },
+  {
+    "status": "A34",
+    "code": 807,
+    "description": "De aanvoertemperatuursensor van de betreffende cv-groep is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A34",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de mengklepmodule (MM10) van de betreffende cv-groep."
+  },
+  {
+    "status": "A51",
+    "code": 812,
+    "description": "De zonneboilerregeling is verkeerd ingesteld."
+  },
+  {
+    "status": "A51",
+    "code": 813,
+    "description": "De collectortemperatuursensor is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A51",
+    "code": 814,
+    "description": "De zonneboilertemperatuursensor is defect of geeft een onrealistische waarde."
+  },
+  {
+    "status": "A51",
+    "code": 816,
+    "description": "Er is geen communicatie mogelijk met de zonneboilermodule (SM10)."
+  },
+  {
+    "status": "AD1",
+    "code": 817,
+    "description": "De luchttemperatuursensor is defect of geeft onrealistische waarde."
+  },
+  {
+    "status": "AD1",
+    "code": 818,
+    "description": "De aanvoertemperatuur van het cv-toestel stijgt te weinig binnen 30 minuten."
+  },
+  {
+    "status": "AD1",
+    "code": 819,
+    "description": "Niet van toepassing op gasgestookte cv-toestellen."
+  },
+  {
+    "status": "AD1",
+    "code": 820,
+    "description": "Niet van toepassing op gasgestookte cv-toestellen."
+  },
+  {
+    "status": "H01",
+    "code": -13,
+    "description": "De rookgastemperatuur is hoger dan normaal."
+  },
+  {
+    "status": "H02",
+    "code": -14,
+    "description": "De ventilator draait langzamer dan normaal."
+  },
+  {
+    "status": "H03",
+    "code": -15,
+    "description": "Het aantal bedrijfsuren voor de volgende onderhoudsbeurt is verlopen."
+  },
+  {
+    "status": "H04",
+    "code": -17,
+    "description": "Onderhoudsmelding: de ionisatiestroom is lager dan normaal."
+  },
+  {
+    "status": "H05",
+    "code": -18,
+    "description": "Onderhoudsmelding: de ontsteekspanning is hoger dan normaal."
+  },
+  {
+    "status": "H06",
+    "code": -19,
+    "description": "Onderhoudsmelding: het aantal herstarts voor het in bedrijf brengen van de brander is meer dan normaal."
+  },
+  {
+    "status": "H07",
+    "code": -20,
+    "description": "De  gemeten cv-waterdruk is te laag.  Het vermogen voor zowel cv-bedrijf als voor warmwaterbedrijf wordt beperkt."
+  },
+  {
+    "status": "H08",
+    "code": -21,
+    "description": "De ingestelde onderhoudsdatum  is verlopen. Onderhoud gewenst."
+  },
+  {
+    "status": "H11",
+    "code": -25,
+    "description": "De warmwateruitstroomtemperatuursensor is defect. De functie wordt overgenomen door de software van het cv-toestel."
+  },
+  {
+    "status": "H12",
+    "code": -26,
+    "description": "De bewaartemperatuursensor is defect. De functie wordt overgenomen door de software van het cv-toestel."
+  },
+  {
+    "status": "H13",
+    "code": -27,
+    "description": "De ingestelde maximale onderhoudsperiode, is overschreden. Onderhoud gewenst."
+  },
+  {
+    "status": "H13",
+    "code": -28,
+    "description": "Onderhoudsperiode is ingesteld."
+  },
+  {
+    "status": "H25",
+    "code": -40,
+    "description": "De contacten van de druksensor zijn onderbroken."
+  },
+  {
+    "status": "Hre",
+    "code": -48,
+    "description": "Het cv-toestel wordt gereset."
+  },
+  {
+    "status": "re",
+    "code": -4,
+    "description": "Het cv-toestel wordt gereset."
+  }
+]
