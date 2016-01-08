@@ -18,7 +18,7 @@
   "homepage": "https://github.com/robertklep/nefit-easy-commands#readme",
   "dependencies": {
     "bluebird": "^3.1.1",
-    "nefit-easy-core": "^1.1.0",
+    "nefit-easy-core": "^1.2.0",
     "require-all": "^2.0.0"
   }
 }
