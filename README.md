@@ -2,6 +2,10 @@
 
 High-level command implementation for Nefit Easy™.
 
+## Please be considerate!
+
+Use this library in moderation: don't flood the backend with new connections made every X seconds. Instead, if you want to poll the backend for data, create a connection once and reuse it for each command. In the end, it's your own responsibility to not get blocked because of excessive (ab)use.
+
 ## Installation
 
 ```
