@@ -53,5 +53,18 @@ client.program() : Promise
 #### Set temperature
 
 ```
-client.setTemperature(value : Number) : Promise
+client.setTemperature(value : [Number|String]) : Promise
+```
+
+`value` can be prefixed with a specifier to conditionally set the temperature if it doesn't match the specifier.
+
+Valid specifiers:
+* `>` : only set new temperature if it's larger then the currently set temperature;
+* `<` : only set new temperature if it's smaller than the currently set temperature;
+
+Example:
+_"Set the thermostat to 21°C, but only if it's not already set higher than that."_
+
+```
+client.setTemperature('> 21').then(...)
 ```
