@@ -50,6 +50,20 @@ client.location() : Promise
 client.program() : Promise
 ```
 
+#### User mode
+
+```
+client.userMode() : Promise
+```
+
+#### Set user mode
+
+```
+client.setUserMode(value : String) : Promise
+```
+
+`value` should be one of `manual`/`clock`.
+
 #### Set temperature
 
 ```
