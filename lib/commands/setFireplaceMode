@@ -1,0 +1,9 @@
+const Promise    = require('bluebird');
+
+module.exports = function setFireplaceMode(value) {
+  return Promise.all([
+    this.put('/ecus/rrc/userprogram/fireplacefunction', {value : (value ? 'on' : 'off')}),
+  ]).then(() => {
+    return { status : 'ok' };
+  });
+};
