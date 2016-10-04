@@ -38,6 +38,12 @@ client.status() : Promise
 client.pressure() : Promise
 ```
 
+#### Hot water supply state
+
+```
+client.hotWaterSupply() : Promise
+```
+
 #### Known location for device
 
 ```
@@ -55,6 +61,14 @@ client.program() : Promise
 ```
 client.userMode() : Promise
 ```
+
+#### Set hot water supply state
+
+```
+client.setHotWaterSupply(value : String) : Promise
+```
+
+`value` should be one of `on`/`off`.
 
 #### Set user mode
 
