@@ -29,8 +29,10 @@ const client          = NefitEasyClient({
 #### Current status
 
 ```
-client.status() : Promise
+client.status([skipOutdoorTemperature]) : Promise
 ```
+
+If `skipOutdoorTemperature` is `true`, the client won't make an extra request to retrieve the current outdoor temperature.
 
 #### Current pressure
 
