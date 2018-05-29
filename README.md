@@ -17,8 +17,8 @@ $ npm i nefit-easy-commands
 #### Constructor
 
 ```
-const NefitEasyClient = require('nefit-easy-commands');
-const client          = NefitEasyClient({
+const NefitEasyCommands = require('nefit-easy-commands');
+const client            = NefitEasyCommands({
   serialNumber   : NEFIT_SERIAL_NUMBER,
   accessKey      : NEFIT_ACCESS_KEY,
   password       : NEFIT_PASSWORD,
