@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-commands",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Nefit Easy™ commands library",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,7 @@
   "homepage": "https://github.com/robertklep/nefit-easy-commands#readme",
   "dependencies": {
     "bluebird": "^3.5.1",
-    "nefit-easy-core": "^3.0.0",
+    "nefit-easy-core": "^3.1.0",
     "require-all": "^2.2.0"
   }
 }
