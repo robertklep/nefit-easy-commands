@@ -13,7 +13,7 @@
     "url": "https://github.com/robertklep/nefit-easy-commands/issues"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=4"
   },
   "homepage": "https://github.com/robertklep/nefit-easy-commands#readme",
   "dependencies": {

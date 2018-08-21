@@ -10,7 +10,9 @@ const client = NefitEasyClient({
 // Connect client and retrieve status and pressure.
 client.connect().then( () => {
   return Promise.all([ client.status(), client.pressure() ]);
-}).then(([ status, pressure ]) => {
+}).then(response => {
+  const status   = response[0];
+  const pressure = response[1];
   console.log(
     'Temperature is set to %s°C, current is %s°C.\n' +
     'Outside temperature is %s°C.\n' +
@@ -21,7 +23,7 @@ client.connect().then( () => {
     pressure.pressure,
     pressure.unit
   );
-}).catch((e) => {
+}).catch(e => {
   console.error('error', e)
 }).finally(() => {
   client.end();
