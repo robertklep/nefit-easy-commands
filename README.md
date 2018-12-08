@@ -91,8 +91,11 @@ client.setTemperature(value : [Number|String]) : Promise
 Valid specifiers:
 * `> VALUE` : only set new temperature (to VALUE) if it's larger then the currently set temperature;
 * `< VALUE` : only set new temperature (to VALUE) if it's smaller than the currently set temperature;
-* `+ VALUE` : increase the currently set temperature by "VALUE"
-* `- VALUE` : decrease the currently set temperature by "VALUE"
+* `+ VALUE` : increase the currently set temperature by "VALUE" (based on current setpoint)
+* `- VALUE` : decrease the currently set temperature by "VALUE" (based on current setpoint)
+* `t+ VALUE` : increase the currently set temperature by "VALUE" (based on current measured temperature)
+* `t- VALUE` : decrease the currently set temperature by "VALUE" (based on current measured temperature)
+
 
 Examples:
 * _"Set the thermostat to 21°C, but only if it's not already set higher than that."_
