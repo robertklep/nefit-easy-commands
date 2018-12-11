@@ -86,15 +86,19 @@ client.setUserMode(value : String) : Promise
 client.setTemperature(value : [Number|String]) : Promise
 ```
 
-`value` can be prefixed with a specifier to conditionally set the temperature if it doesn't match the specifier.
+`value` can be prefixed with a specifier add a bit of logic to changing the setpoint.
+
+Also, the specifer can contain a base for relative changes.
+* `setpoint` : this is the currently set target temperature you want to reach.
+* `in house temp` : this is the currently measured in house temperature.
 
 Valid specifiers:
-* `> VALUE` : only set new temperature (to VALUE) if it's larger then the currently set temperature;
-* `< VALUE` : only set new temperature (to VALUE) if it's smaller than the currently set temperature;
-* `+ VALUE` : increase the currently set temperature by "VALUE" (based on current setpoint)
-* `- VALUE` : decrease the currently set temperature by "VALUE" (based on current setpoint)
-* `t+ VALUE` : increase the currently set temperature by "VALUE" (based on current measured temperature)
-* `t- VALUE` : decrease the currently set temperature by "VALUE" (based on current measured temperature)
+* `> VALUE` : only change setpoint to "VALUE" if it's larger than the current setpoint;
+* `< VALUE` : only change setpoint to "VALUE" if it's smaller than the current setpoint;
+* `setpoint + VALUE` : increase the setpoint by "VALUE"
+* `setpoint - VALUE` : decrease the setpoint by "VALUE"
+* `in house temp + VALUE` : change the setpoint to in house temperature + "VALUE" 
+* `in house temp - VALUE` : change the setpoint to in house temperature - "VALUE" 
 
 
 Examples:
@@ -104,8 +108,14 @@ Examples:
 client.setTemperature('> 21').then(...)
 ```
 
-* _"Increase the currently set temperature by 2.5°C"_
+* _"Increase the setpoint by 2.5°C"_
 
 ```
-client.setTemperature('+ 2.5').then(...)
+client.setTemperature('setpoint + 2.5').then(...)
+```
+
+* _"Set the setpoint to the curren in house temperature and add 2.5°C"_
+
+```
+client.setTemperature('in house temp + 2.5').then(...)
 ```
