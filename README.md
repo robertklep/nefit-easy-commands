@@ -86,11 +86,11 @@ client.setUserMode(value : String) : Promise
 client.setTemperature(value : [Number|String]) : Promise
 ```
 
-`value` can be prefixed with a specifier add a bit of logic to changing the setpoint.
+`value` can be prefixed with a specifier to add a bit of logic to changing the setpoint.
 
-Also, the specifer can contain a base for relative changes.
-* `setpoint` : this is the currently set target temperature you want to reach.
-* `in house temp` : this is the currently measured in house temperature.
+The specifier can contain a base for relative changes:
+* `setpoint` : this is the current target temperature;
+* `in house temp` : this is the current measured temperature;
 
 Valid specifiers:
 * `> VALUE` : only change setpoint to "VALUE" if it's larger than the current setpoint;
@@ -99,7 +99,6 @@ Valid specifiers:
 * `setpoint - VALUE` : decrease the setpoint by "VALUE"
 * `in house temp + VALUE` : change the setpoint to in house temperature + "VALUE" 
 * `in house temp - VALUE` : change the setpoint to in house temperature - "VALUE" 
-
 
 Examples:
 * _"Set the thermostat to 21°C, but only if it's not already set higher than that."_
@@ -114,7 +113,7 @@ client.setTemperature('> 21').then(...)
 client.setTemperature('setpoint + 2.5').then(...)
 ```
 
-* _"Set the setpoint to the curren in house temperature and add 2.5°C"_
+* _"Set the setpoint to the current in house temperature and add 2.5°C"_
 
 ```
 client.setTemperature('in house temp + 2.5').then(...)
