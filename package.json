@@ -1,6 +1,6 @@
 {
   "name": "nefit-easy-commands",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "description": "Nefit Easy™ commands library",
   "main": "index.js",
   "repository": {
